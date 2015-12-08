@@ -1,0 +1,170 @@
+/**
+ * Site header
+ */
+.site-header {
+  border-top: 5px solid $brand-color;
+  padding: $spacing-unit / 2 0;
+  padding-top: $spacing-unit;
+}
+
+.site-title {
+  font-size: 26px;
+  margin: 0;
+  line-height: 22px;
+
+  &, &:visited {
+    color: $text-color;
+  }
+}
+
+.site-title:hover {
+  text-decoration: none;
+}
+
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+  border-top: 1px solid $grey-color-light;
+  padding: $spacing-unit 0;
+}
+
+.site-tags {
+  margin-bottom: $spacing-unit;
+  list-style: none;
+  margin-left: 0;
+  float:left;
+  
+  .tag-link {
+    line-height: $base-line-height;
+    display: inline;
+    
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+  
+  @include media-query($on-palm) {
+    float:none;
+  }
+}
+
+.license {
+  float:right;
+  
+  @include media-query($on-palm) {
+    float:none;
+  }
+}
+
+
+
+/**
+ * Page aside
+ */
+main {
+  width: 70%;
+  float: right;
+  
+  @include media-query($on-laptop) {
+    width: 100%;
+  }
+}
+
+aside {
+  width: 29%;
+
+  > h2 {
+    font-size : 24px;
+    font-weight: bold;
+    line-height: 1;
+  }
+  
+  :last-child {
+    margin: 0;
+  }
+
+  @include media-query($on-laptop) {
+    width: 100%;
+  }
+}
+
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+
+
+/**
+ * Page content
+ */
+.page-content {
+  padding: $spacing-unit 0;
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+
+  :last-child {
+    margin: 0;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-link {
+  display: block;
+  font-size: 36px;
+  line-height: 1;
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title  {
+  font-size: 46px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+a.post-tag {
+  color: #000;
+  font-size: 12px;
+  background: $grey-color-light;
+  padding: 5px;
+  border-radius: 3px;
+  
+  &:hover {
+    background: $brand-color;
+    color: #fff;
+  }
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+}

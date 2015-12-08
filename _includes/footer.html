@@ -1,0 +1,17 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <ul class="site-tags">
+      {% for tag in site.tags %}
+        <li class="tag-link"><a href="{{ '/tags/' | append:tag[0] }}">{{ tag[0] }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <div class="license">
+      Code licensed under <a href="{{ '/license.txt' | prepend:site.baseurl }}" rel="license">MIT License</a>
+    </div>
+
+  </div>
+
+</footer>
