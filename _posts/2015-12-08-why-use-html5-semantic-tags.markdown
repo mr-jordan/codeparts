@@ -6,6 +6,8 @@ tags: jekyll html5
 ---
 For my little blog website, I decided to use [Jekyll][jekyll]. It comes with a nice [sample theme][jekyll-new] that uses some of the new HTML5 semantic tags, I decided to keep them and add some more such as `<main>` or `<aside>`. I ended up having something like this.
 
+<!--more-->
+
 {% highlight html %}
 <body>
   <header class="site-header">
