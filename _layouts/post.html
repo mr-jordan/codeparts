@@ -13,7 +13,7 @@ layout: default
 
     <div>
     {% for tag in page.tags %}
-      <a href="{{ '/tag/' | append:tag }}" class="post-tag">{{ tag }}</a>
+      <a href="{{ '/tag/' | append:tag }}" class="post-tag" rel="tag">{{ tag }}</a>
     {% endfor %}
     </div>
   </header>
