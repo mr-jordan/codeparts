@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Code.parts
+title: Code Parts
 email: 
 description: > # this means to ignore newlines until "baseurl:"
   A blog about web development, to share code and proof of concept projects with friends and workmates.
