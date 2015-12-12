@@ -54,7 +54,7 @@ Partial [Sass][sass] files contain little snippets of CSS that can be included i
 ## Compression
 I take advantage of the file size optimization available with [Sass][sass]. In the `_config.yml` file I added this line to output compressed CSS.
 
-{% highlight yml %}
+{% highlight yaml %}
 sass:
   style: compressed
 {% endhighlight %}
