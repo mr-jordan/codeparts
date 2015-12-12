@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sass: Syntactically Awesome Style Sheets"
-date:   2015-12-12 21:00:00 +0100
+date:   2015-12-12 18:00:00 +0100
 tags: jekyll sass css
 ---
 [Jekyll][jekyll] provides built-in support for [Sass][sass], a style sheet language, which includes features that extend the functionality of plain static CSS. These are some of the [Sass][sass] features I used.
