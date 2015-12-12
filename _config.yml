@@ -21,3 +21,5 @@ sass:
 # Build settings
 markdown: kramdown
 port: 4001
+gems:
+  - jekyll-sitemap
